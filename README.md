@@ -7,7 +7,10 @@
 # Create Project
     Open GitLab account and create new project
 # Install GitLab Runner
-  Go to the project’s Settings > CI/CD and expand the Runners section and get URL and tiken
+
+  ![Capture](https://user-images.githubusercontent.com/54719289/104106342-f0b9f900-52da-11eb-8c40-391f3affb86b.JPG)
+
+  Go to the project’s Settings > CI/CD and expand the Runners section and get URL and token
     
     sudo gitlab-runner register -n \
         --url http://54.144.17.106/ \
